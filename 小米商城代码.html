@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <script src="../jquery.mini.js"></script>
+    <link rel="stylesheet" href="小米商城css.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="js/funlazy.min.js"></script>
+    <script>
+        FunLazy({
+            beforeLazy: function (src) {
+                return src + "?id=" + Math.random().toString(36).substr(2, 10);
+            }
+        });
+    </script> -->
+    <script src="小米商城.js"></script>
+</head>
+
+<body>
+    <div class="white">
+        <div class="top">
+            <ul>
+                <li><a href="#">小米商城</a></li>
+                <li><a href="#">MIUI</a></li>
+                <li><a href="#">loT</a></li>
+                <li><a href="#">云服务</a></li>
+                <li><a href="#">天星数科</a></li>
+                <li><a href="#">有品</a></li>
+                <li><a href="#">小爱开放平台</a></li>
+                <li><a href="#">企业团购</a></li>
+                <li><a href="#">资质证照</a></li>
+                <li><a href="#">协议规则</a></li>
+                <li><a href="#">下载app</a></li>
+                <li><a href="#">智能生活</a></li>
+                <li><a href="#">Select Location</a></li>
+            </ul>
+            <ul class="login">
+                <li><a href='../登录界面/index.html' target="_blank">登录</a></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#">消息通知</a></li>
+                <li><a href="#">购物车</a></li>
+            </ul>
+        </div>
+        <div class="nav w">
+            <div class="log"><a href="#"><img src="image/logo.webp" alt="" title="小米商城"></a></div>
+            <ul class="list">
+                <li><a href="#">Xiaomi手机</a></li>
+                <li><a href="#">Redmi红米</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">平板</a></li>
+                <li><a href="#">家电</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+            </ul>
+            <!-- <div class="xiaomishouji">
+                <ul>
+                    <li> <a href="#"><img src="image/小米11青春活力版.webp" alt=""></a> </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div> -->
+            <input type="search" class="search" placeholder="来试试搜索吧">
+            <div class="font"></div>
+        </div>
+        <div class="banner w x">
+            <div class="left">
+                <a href="#">手机</a>
+                <a href="#">电视</a>
+                <a href="#">笔记本 平板</a>
+                <a href="#">家电</a>
+                <a href="#">出行 穿戴</a>
+                <a href="#">智能 路由器</a>
+                <a href="#">电源 配件</a>
+                <a href="#">健康 儿童</a>
+                <a href="#">耳机 音箱</a>
+                <a href="#">生活 箱包</a>
+            </div>
+            <div class="right">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="image/1.jpg" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="image/2.webp" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="image/3.webp" alt="...">
+                        </div>
+                        <div class="item">
+                            <img src="image/4.webp" alt="...">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="display w">
+            <div class="modular">
+                <ul>
+                    <li><a href="#">保障服务</a></li>
+                    <li><a href="#">企业团购</a></li>
+                    <li><a href="#">F码通道</a></li>
+                    <li><a href="#">米粉卡</a></li>
+                    <li><a href="#">以旧换新</a></li>
+                    <li><a href="#">话费充值</a></li>
+                </ul>
+            </div>
+            <div class="mi11">
+                <img src="image/mi11.jpg" alt="">
+            </div>
+            <div class="miFold">
+                <img src="image/miFold.jpg" alt="">
+            </div>
+            <div class="airpod">
+                <img src="image/aripod.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="middle z x">
+        <div class="transition w">
+            <img src="image/K40.webp" alt="">
+        </div>
+        <div class="phone w">
+            <div class="title">
+                <h4>手机</h4>
+                <a href="#" class="more">查看更多 ></a>
+            </div>
+
+            <div class="list">
+                <div class="fold">
+                    <a href="#"><img src="image/MIX FOLD折叠手机.webp" alt=""></a>
+                </div>
+                <ul class="phones">
+                    <li>
+                        <a href="#"><img src="image/小米11青春活力版.webp" alt=""></a>
+                        <h3>Xiaomi 11 青春活力版</h3>
+                        <p>轻薄5G，内外皆出彩</p>
+                        <p class="class">1599元起</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Redmi Note 11 Pro系列.webp" alt=""></a>
+                        <h3>Redmi Note 11 Pro系列</h3>
+                        <p>Redmi Note 11Pro系列</p>
+                        <p class="class">1799元起</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Redmi Note 11 5G.webp" alt=""></a>
+                        <h3>Redmi Note 11 5G</h3>
+                        <p>5000mAh大点量</p>
+                        <p class="class">1199元起</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Redmi Note 11 4G.webp" alt=""></a>
+                        <h3>Redmi Note 11 4G</h3>
+                        <p>5000mAh大点量</p>
+                        <p class="class">999元起</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/黑鲨4S Pro.webp" alt=""></a>
+                        <h3>黑鲨4S Pro</h3>
+                        <p>磁动力升降肩键</p>
+                        <p class="class">4799元起</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/黑鲨4S.webp" alt=""></a>
+                        <h3>黑鲨4S</h3>
+                        <p>磁动力升降肩键</p>
+                        <p class="class">2699元起</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Xiaomi Civi.webp" alt=""></a>
+                        <h3>Xiaomi Civi</h3>
+                        <p>3200万高清质感自拍</p>
+                        <p class="class">2599元起</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Xiaomi MIX 4.webp" alt=""></a>
+                        <h3>Xiaomi MIX 4</h3>
+                        <p>CUP全面屏</p>
+                        <p class="class">4199元起</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="watch w">
+            <div class="title">
+                <h4>智能穿戴</h4>
+                <a href="#" class="more">穿戴</a>
+                <a href="#" class="more chuanda">热门</a>
+            </div>
+
+            <div class="list">
+                <div class="fold">
+                    <a href="#"><img src="image/Xiaomi Watch Color2.webp" alt=""></a>
+                </div>
+                <ul class="phones">
+                    <li>
+                        <a href="#"><img src="image/Redmi 手表2.webp" alt=""></a>
+                        <h3>Redmi 手表2</h3>
+                        <p>AMOLED高清大屏</p>
+                        <p class="class">399元</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/小米手环6NFC.webp" alt=""></a>
+                        <h3>小米手环6 NFC版</h3>
+                        <p>全屏实力</p>
+                        <p class="class">249元</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Redmi.webp" alt=""></a>
+                        <h3>Redmi 手表</h3>
+                        <p>35g超轻/1.4大屏多功能NFC手表</p>
+                        <p class="class">269元</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/小米降噪耳机.webp" alt=""></a>
+                        <h3>Xiaomi 真无线降噪耳机</h3>
+                        <p>动态降噪 静听曼妙</p>
+                        <p class="class">699元</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Redmi Buds 3.webp" alt=""></a>
+                        <h3>Redmi Buds 3半入耳真无线蓝牙耳机</h3>
+                        <p>轻巧半入耳，舒适有天分</p>
+                        <p class="class">199元</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Redmi Buds 青春版.webp" alt=""></a>
+                        <h3>Redmi Buds 3青春版</h3>
+                        <p>轻巧无线 持久动听</p>
+                        <p class="class">99元</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="image/Redmi AirDots.webp" alt=""></a>
+                        <h3>Redmi AirDots 3 Pro</h3>
+                        <p>智能降噪 超低延迟</p>
+                        <p class="class">299元</p>
+                    </li>
+                    <li>
+                        <div class="div">
+                            待开发
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="household w">
+            <div class="title">
+                <h4>家电</h4>
+                <a href="#" class="more">电视影音</a>
+                <a href="#" class="more chuanda">热门</a>
+            </div>
+
+            <!-- <div class="list">
+                    <div class="fold">
+                        <a href="#"><img src="image/Xiaomi Watch Color2.webp" alt=""></a>
+                    </div> -->
+            <ul class="ttelevision">
+                <li class="big">
+                    <a href="#"><img src="image/小米电视6.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米电视6 65.webp" alt=""></a>
+                    <h3>小米电视6 65°OLED</h3>
+                    <p>小米电视6 65°OLED</p>
+                    <p class="class">6999元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米电视6 至尊版.webp" alt=""></a>
+                    <h3>小米电视6 至尊版 65英寸</h3>
+                    <p>画质新境界</p>
+                    <p class="class">7999元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米电视 ES55 2022款.webp" alt=""></a>
+                    <h3>小米电视 ES55 2022款</h3>
+                    <p>多分区，画质轻旗舰</p>
+                    <p class="class">2999元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家互联网对开门冰箱.webp" alt=""></a>
+                    <h3>米家互联网对开门冰箱 540L</h3>
+                    <p>重磅新品福利特惠</p>
+                    <p class="class">2999元</p>
+                </li>
+            </ul>
+            <ul class="btelevision">
+                <li class="big">
+                    <a href="#"><img src="image/小米电视77.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家超薄电磁炉.webp""></a>
+                        <h3>米家超薄电磁炉</h3>
+                        <p>纤薄美学，精准猛火</p>
+                        <p class=" class">419元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家积尘扫地机器人.webp" alt=""></a>
+                    <h3>米家集尘扫托机器人</h3>
+                    <p>自动倒垃圾 45天手不沾尘</p>
+                    <p class="class">2599元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/全自动洗衣机.webp" alt=""></a>
+                    <h3>Redmi全自动波轮洗衣机1A 8kg</h3>
+                    <p>一键操作，父母都爱用</p>
+                    <p class="class">849元</p>
+                </li>
+                <li>
+                    <div class="div">
+                        待开发
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="robot w">
+            <div class="title">
+                <h4>生活电器</h4>
+                <a href="#" class="more">风扇</a>
+                <a href="#" class="more chuanda">清洁</a>
+                <a href="#" class="more chuanda">空净</a>
+                <a href="#" class="more chuanda">扫地机</a>
+            </div>
+
+            <!-- <div class="list">
+                                            <div class="fold">
+                                                <a href="#"><img src="image/Xiaomi Watch Color2.webp" alt=""></a>
+                                            </div> -->
+            <ul class="trobot">
+                <li class="big">
+                    <a href="#"><img src="image/米家空气净化器.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家扫地机器人.webp" alt=""></a>
+                    <h3>米家扫拖机器人</h3>
+                    <p>扫拖除菌一步到位</p>
+                    <p class="class">2299元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家扫地机器人2.webp" alt=""></a>
+                    <h3>米家扫地机器人 2</h3>
+                    <p>经典延续，全面升级</p>
+                    <p class="class">1599元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家集尘扫地机器人.webp" alt=""></a>
+                    <h3>米家集尘扫拖机器人</h3>
+                    <p>自动倒垃圾，45天手不沾尘</p>
+                    <p class="class">2599元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家扫地机器人1T.webp" alt=""></a>
+                    <h3>米家扫拖机器人1T</h3>
+                    <p>3D精准避障，扫描不再碰撞</p>
+                    <p class="class">1699元</p>
+                </li>
+            </ul>
+            <ul class="brobot">
+                <li class="big">
+                    <a href="#"><img src="image/大的米家扫地机器人.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家扫地机器人2C.webp"></a>
+                    <h3>米家扫拖机器人 2C</h3>
+                    <p>抗菌去渍二合一，开启生活新净界</p>
+                    <p class=" class">1099元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家扫地机器人1S.webp" alt=""></a>
+                    <h3>米家扫地机器人1S</h3>
+                    <p>看得明白扫得彻底</p>
+                    <p class="class">1299元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家扫地机器人G1.webp" alt=""></a>
+                    <h3>米家扫拖机器人 G1</h3>
+                    <p>能扫会拖，整屋清洁一步到位</p>
+                    <p class="class">799元</p>
+                </li>
+                <li>
+                    <div class="div">
+                        待开发
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="transition w">
+            <img src="image/防缠绕拖地机器人.webp" alt="">
+        </div>
+        <div class="purifier w">
+            <div class="title">
+                <h4>厨房电器</h4>
+                <a href="#" class="more">微蒸烤</a>
+                <a href="#" class="more chuanda">电饭煲</a>
+                <a href="#" class="more chuanda">烟灶</a>
+                <a href="#" class="more chuanda">净水器</a>
+            </div>
+
+            <!-- <div class="list">
+                                                            <div class="fold">
+                                                                <a href="#"><img src="image/Xiaomi Watch Color2.webp" alt=""></a>
+                                                            </div> -->
+            <ul class="tpurifier">
+                <li class="big">
+                    <a href="#"><img src="image/大的小米净水器.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米净水器1200.webp" alt=""></a>
+                    <h3>小米净水器1200G</h3>
+                    <p>3.2L/min大流量，鲜活首杯水</p>
+                    <p class="class">2999元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米即热热水器Q600.webp" alt=""></a>
+                    <h3>小米即热热水器Q600</h3>
+                    <p>净热一体，1秒速热，精选调温每1℃</p>
+                    <p class="class">2999元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米净水器H600G.webp" alt=""></a>
+                    <h3>小米净水器H600G</h3>
+                    <p>纯净生活双出水，六级过滤健康直饮</p>
+                    <p class="class">1199元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米净水器600G.webp" alt=""></a>
+                    <h3>小米净水器600G</h3>
+                    <p>600加仑通量，流速更快</p>
+                    <p class="class">1299元</p>
+                </li>
+            </ul>
+            <ul class="bpurifier">
+                <li class="big">
+                    <a href="#"><img src="image/跨烟灶.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米净水器S1.webp"></a>
+                    <h3>小米净水器S1 800G</h3>
+                    <p>APP检测水质，OLED屏显水龙头</p>
+                    <p class=" class">1799元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米净水器H1000.webp" alt=""></a>
+                    <h3>小米净水器H1000G</h3>
+                    <p>双RO反渗透净化，稳定高效过滤</p>
+                    <p class="class">1999元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米台式净饮机.webp" alt=""></a>
+                    <h3>小米台式净饮机</h3>
+                    <p>即滤即热，乐享鲜活纯净水</p>
+                    <p class="class">1099元</p>
+                </li>
+                <li>
+                    <!-- <div class="div">
+                        待开发
+                    </div> -->
+                    <a href="#"><img src="image/小米净水器400G增强.webp" alt=""></a>
+                    <h3>小米净水器</h3>
+                    <p>400G增强版</p>
+                    <p class="class">999元</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="home w">
+            <div class="title">
+                <h4>智能家居</h4>
+                <a href="#" class="more">智能设备</a>
+                <a href="#" class="more chuanda">路由器</a>
+                <a href="#" class="more chuanda">门锁</a>
+                <a href="#" class="more chuanda">小爱音响</a>
+            </div>
+
+            <!-- <div class="list">
+                                                                            <div class="fold">
+                                                                                <a href="#"><img src="image/Xiaomi Watch Color2.webp" alt=""></a>
+                                                                            </div> -->
+            <ul class="thome">
+                <li class="big">
+                    <a href="#"><img src="image/大的xiaomi Sound.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米路由器AX3000.webp" alt=""></a>
+                    <h3>小米路由器AX3000</h3>
+                    <p>小米路由器AX3000</p>
+                    <p class="class">349元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米路由器4A千兆版.webp" alt=""></a>
+                    <h3>小米路由器4A千兆版</h3>
+                    <p>双核全千兆AC1200路由器</p>
+                    <p class="class">129元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/Redmi路由器AX3000.webp" alt=""></a>
+                    <h3>Redmi路由器AX3000</h3>
+                    <p>疾速WiFi6，更快一步</p>
+                    <p class="class">269元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/Redmi路由器AX1800.webp" alt=""></a>
+                    <h3>Redmi路由器AX1800</h3>
+                    <p>双频WiFi6</p>
+                    <p class="class">269元</p>
+                </li>
+            </ul>
+            <ul class="bhome">
+                <li class="big">
+                    <a href="#"><img src="image/智能门锁.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/Redmi路由器AX6S.webp"></a>
+                    <h3>Redmi路由器AX6S</h3>
+                    <p>Redmi路由器AX6S</p>
+                    <p class=" class">329元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米路由器4C.webp" alt=""></a>
+                    <h3>小米路由器4C</h3>
+                    <p>300M单频</p>
+                    <p class="class">59元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/Redmi路由器AC2100.webp" alt=""></a>
+                    <h3>Redmi路由器AC2100</h3>
+                    <p>全民升级2000兆</p>
+                    <p class="class">169元</p>
+                </li>
+                <li>
+                    <!-- <div class="div">
+                                        待开发
+                                    </div> -->
+                    <a href="#"><img src="image/小米路由器AX6000.webp" alt=""></a>
+                    <h3>小米路由器</h3>
+                    <p>AX6000</p>
+                    <p class="class">599元</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sport w">
+            <div class="title">
+                <h4>运动出行</h4>
+                <a href="#" class="more">出行工具</a>
+                <a href="#" class="more chuanda">箱包配饰</a>
+                <a href="#" class="more chuanda">运动健康</a>
+                <a href="#" class="more chuanda">平衡车/滑板车</a>
+            </div>
+
+            <!-- <div class="list">
+                                                                                            <div class="fold">
+                                                                                                <a href="#"><img src="image/Xiaomi Watch Color2.webp" alt=""></a>
+                                                                                            </div> -->
+            <ul class="tsport">
+                <li class="big">
+                    <a href="#"><img src="image/大的九号平衡车.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/九号平衡车.jpg" alt=""></a>
+                    <h3>九号平衡车</h3>
+                    <p>年轻人的陪玩具</p>
+                    <p class="class">2199元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/九号平衡车燃动版.webp" alt=""></a>
+                    <h3>九号平衡车燃动版</h3>
+                    <p>燃动升级，随走随停</p>
+                    <p class="class">2599元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/九号平衡车Plus.png" alt=""></a>
+                    <h3>九号平衡车 Plus</h3>
+                    <p>一个形影不离的新伙伴</p>
+                    <p class="class">3499元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家电动滑板车1S.webp" alt=""></a>
+                    <h3>米家电动滑板车1S</h3>
+                    <p>型出格，行出色</p>
+                    <p class="class">2199元</p>
+                </li>
+            </ul>
+            <ul class="bsport">
+                <li class="big">
+                    <a href="#"><img src="image/米家跑步机.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/小米米家电动滑板车Pro.webp"></a>
+                    <h3>小米米家电动滑板车Pro</h3>
+                    <p>性能提升，动力更强劲</p>
+                    <p class=" class">3099元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/九号卡丁车.webp" alt=""></a>
+                    <h3>九号卡丁车Pro兰博基尼款</h3>
+                    <p>九号卡丁车Pro兰博基尼汽车定制版</p>
+                    <p class="class">9999元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/九号平衡车.webp" alt=""></a>
+                    <h3>九号平衡车 改装套件</h3>
+                    <p>小朋友的大玩具，大顽童的小赛车</p>
+                    <p class="class">2799元</p>
+                </li>
+                <li>
+                    <div class="div">
+                        待开发
+                    </div>
+                    <!-- <a href="#"><img src="image/小米路由器AX6000.webp" alt=""></a>
+                    <h3>小米路由器</h3>
+                    <p>AX6000</p>
+                    <p class="class">599元</p> -->
+                </li>
+            </ul>
+        </div>
+
+        <div class="transition w">
+            <img src="image/中性笔.webp" alt="">
+        </div>
+
+        <div class="store w">
+            <div class="title">
+                <h4>日用百货</h4>
+                <a href="#" class="more">家具床品</a>
+                <a href="#" class="more chuanda">儿童用品</a>
+                <a href="#" class="more chuanda">电源/线材</a>
+                <a href="#" class="more chuanda">个护健康</a>
+            </div>
+
+            <!-- <div class="list">
+                                                                                                            <div class="fold">
+                                                                                                                <a href="#"><img src="image/Xiaomi Watch Color2.webp" alt=""></a>
+                                                                                                            </div> -->
+            <ul class="tstore">
+                <li class="big">
+                    <a href="#"><img src="image/小米移动电源.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/电动牙刷.webp" alt=""></a>
+                    <h3>米家声波电动牙刷T700</h3>
+                    <p>米家声波电动牙刷T700</p>
+                    <p class="class">369元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家电动剃须刀S500.webp" alt=""></a>
+                    <h3>米家电动剃须刀S500</h3>
+                    <p>浮动贴面更干净，减压设计更舒服</p>
+                    <p class="class">149元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家理发器.webp" alt=""></a>
+                    <h3>米家理发器</h3>
+                    <p>米家理发器</p>
+                    <p class="class">119元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/自动洗手机套装.webp" alt=""></a>
+                    <h3>米家自动洗手机套装</h3>
+                    <p>伸手出泡，抑菌有效</p>
+                    <p class="class">69元</p>
+                </li>
+            </ul>
+            <ul class="bstore">
+                <li class="big">
+                    <a href="#"><img src="image/米家电动剃须刀S500.webp" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家电动冲牙器.webp"></a>
+                    <h3>米家电动冲牙器</h3>
+                    <p>动力强劲，全方位清洁口腔</p>
+                    <p class=" class">199元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家声波电动牙刷T500.webp" alt=""></a>
+                    <h3>米家声波电动牙刷T500</h3>
+                    <p>刷的干净，智能护齿</p>
+                    <p class="class">169元</p>
+                </li>
+                <li>
+                    <a href="#"><img src="image/米家电子体温计.webp" alt=""></a>
+                    <h3>米家电子体温计</h3>
+                    <p>快速知体温，精准更智能</p>
+                    <p class="class">69元</p>
+                </li>
+                <li>
+                    <!-- <div class="div">
+                        待开发
+                    </div> -->
+                    <a href="#"><img src="image/米家自动香氛机套装.webp" alt=""></a>
+                    <h3>米家自动香氛机套装</h3>
+                    <!-- <p>AX6000</p> -->
+                    <p class="class">69元</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="video w">
+            <div class="title">
+                <h4>视频</h4>
+                <a href="#" class="more">查看全部 ></a>
+            </div>
+            <ul class="videos">
+                <li>
+                    <video src="video1-b.mp4" muted="muted" controls="controls" loop="loop"
+                        poster="https://cdn.cnbj1.fds.api.mi-img.com/product-images/xiaomicivibfbefe/section2-1.png"></video>
+                    <h3>2021年春季新品发布会第一场</h3>
+                </li>
+                <li><video src="video1-b.mp4" muted="muted" controls="controls" loop="loop"
+                        poster="https://cdn.cnbj1.fds.api.mi-img.com/product-images/xiaomicivibfbefe/section2-1.png"></video>
+                    <h3>Redmi 10X系列发布会</h3>
+                    <p>Redmi 10X系列发布会</p>
+                </li>
+                <li>
+                    <video src="video1-b.mp4" muted="muted" controls="controls" loop="loop"
+                        poster="https://cdn.cnbj1.fds.api.mi-img.com/product-images/xiaomicivibfbefe/section2-1.png"></video>
+                    <h3>小米10 青春版 发布会</h3>
+                </li>
+                <li>
+                    <video src="video1-b.mp4" muted="muted" controls="controls" loop="loop"
+                        poster="https://cdn.cnbj1.fds.api.mi-img.com/product-images/xiaomicivibfbefe/section2-1.png"></video>
+                    <h3>小米10 8K手机拍大片</h3>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="bottom">
+        <ul class="activity w">
+            <li><a href="#" class="one">预约维修服务</a></li>
+            <li><a href="#" class="two">7天无理由退货</a></li>
+            <li><a href="#" class="three">15天免费换货</a></li>
+            <li><a href="#" class="four">满69包邮</a></li>
+            <li><a href="#" class="five">520余家售后网点</a></li>
+        </ul>
+        <div class="links w">
+            <dl>
+                <dt>帮助中心</dt>
+                <dd>
+                    <a href="#">账户管理</a>
+                </dd>
+                <dd><a href="#">管理指南</a></dd>
+                <dd><a href="#">购物指南</a></dd>
+                <dd><a href="#">订单操作</a></dd>
+            </dl>
+            <dl>
+                <dt>服务支持</dt>
+                <dd><a href="#">售后政策</a></dd>
+                <dd><a href="#">自助服务</a></dd>
+                <dd><a href="#">相关下载</a></dd>
+            </dl>
+            <dl>
+                <dt>线下门店</dt>
+                <dd><a href="#">小米之家</a></dd>
+                <dd><a href="#">服务网点</a></dd>
+                <dd><a href="#">授权体验店/专区</a></dd>
+            </dl>
+            <dl>
+                <dt>关于小米</dt>
+                <dd><a href="#">了解小米</a></dd>
+                <dd><a href="#">加入小米</a></dd>
+                <dd><a href="#">投资者关系</a></dd>
+                <dd><a href="#">企业社会责任</a></dd>
+                <dd><a href="#">廉洁举报</a></dd>
+            </dl>
+            <dl>
+                <dt>关注我们</dt>
+                <dd><a href="#">新浪微博</a></dd>
+                <dd><a href="#">官方微信</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="#">公益基金会</a></dd>
+            </dl>
+            <dl>
+                <dt>特色服务</dt>
+                <dd><a href="#">F 码通道</a></dd>
+                <dd><a href="#">礼物码</a></dd>
+                <dd><a href="#">防伪查询</a></dd>
+            </dl>
+            <div class="tel">
+                <h2>400-100-5678</h2>
+                <p>8:00-18:00（仅收市话费）</p>
+                <div class="service">
+                    <a href="#">人工客服</a>
+                </div>
+                <p class="attention">关注小米：</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="rules w">
+        <div class="log"><a href="#"><img src="image/logo.webp" alt="" title="小米商城"></a></div>
+        <div class="p">
+            <ul>
+                <li><a href="#">小米商城</a></li>
+                <li><a href="#">MIUI </a></li>
+                <li><a href="#">米家 </a></li>
+                <li><a href="#">米聊 </a></li>
+                <li><a href="#">多看 </a></li>
+                <li><a href="#">游戏 </a></li>
+                <li><a href="#">政企服务 </a></li>
+                <li><a href="#">小米天猫店 </a></li>
+                <li><a href="#">小米集团隐私政策 </a></li>
+                <li><a href="#">小米公司儿童信息保护规则 </a></li>
+                <li><a href="#">小米商城隐私政策 </a></li>
+                <li><a href="#">小米商城用户协议 </a></li>
+                <li><a href="#">问题反馈 </a></li>
+                <li><a href="#">Select Location </a></li>
+                <li><a href="#">北京互联网法院法律服务工作站</a></li>
+                <li><a href="#">中国消费者协会</a></li>
+                <li><a href="#">北京市消费者协会</a></li>
+            </ul>
+            <p><a href="#">© mi.com</a> 京ICP证110507号 <a href="#">京ICP备10046444号</a> <a href="#">京公网安备11010802020134号</a>
+                <a href="#">京网文[2020]0276-042号</a>
+            </p>
+            <p> <a href="#">（京）网械平台备字（2018）第00005号</a> <a href="#">互联网药品信息服务资格证</a> <a href="#">(京)-非经营性-2014-0090</a>
+                <a href="#">营业执照</a> <a href="#">医疗器械质量公告</a>
+            </p>
+            <p><a href="#">增值电信业务许可证</a> 网络食品经营备案 京食药网食备202010048 <a href="#">食品经营许可证</a></p>
+            <p>违法和不良信息举报电话：171-5104-4404 知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+        </div>
+        <div class="img">
+            <a href="#"><img src="image/隐私认证.png" alt=""></a>
+            <a href="#"><img src="image/诚信网站.png" alt=""></a>
+            <a href="#"><img src="image/可信网站.png" alt=""></a>
+            <a href="#"><img src="image/诚信经营.png" alt=""></a>
+            <a href="#"><img src="image/已服务.png" alt=""></a>
+        </div>
+    </div>
+    <span class="title">
+        让全球每个人都能享受科技带来的美好生活
+    </span>
+    <!-- <script src="js/funlazy.min.js"></script>
+    <script>
+        FunLazy({
+            beforeLazy: function (src) {
+                return src + "?id=" + Math.random().toString(36).substr(2, 10);
+            }
+        });
+    </script> -->
+    <!-- <script type="text/javascript">
+        //图片加载的函数
+        function imgonload() {
+            //把伪数组转化为真数组
+            let imgs = [...document.querySelectorAll('.lazy-load')]
+            console.log(imgs);
+            for (let i = 0; i < imgs.length; i++) {
+                if (imgs[i].getBoundingClientRect().top < window.innerHeight) {
+                    //图片一旦有src就会加载出来，所以图片的路径不会放在src中，而是一个自定义的属性data-src中
+                    imgs[i].src = imgs[i].dataset.src;
+                    // console.log(imgs[i].dataset.src);
+                    console.log(imgs[i].src);
+                }
+            }
+        }
+        //第一次页面加载的时候，让屏幕内的图片正常加载，而屏幕外的图片就使用loading图片代替
+        window.onload = imgonload;
+        //监听滚轮事件，
+        window.addEventListener('scroll', imgonload)
+    </script> -->
+
+</body>
+
+</html>
