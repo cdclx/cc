@@ -20,5 +20,6 @@ $(function () {
     })
 
     $("img").addClass("lazy-load");
+    console.log('ss');
 })
 
